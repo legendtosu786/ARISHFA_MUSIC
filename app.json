@@ -41,11 +41,7 @@
         "description": "A Pyrogram v2 String Session .",
         "value": "",
         "required": true
-      },
-      "QUEUE_LIMIT": {
-        "description": "Fill Queue Limit . Example - 15",
-        "value": "",
-        "required": false
+     "required": false
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
