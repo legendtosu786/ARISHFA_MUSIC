@@ -5,7 +5,6 @@ from ARISHFA_MUSIC.misc import SUDOERS
 from ARISHFA_MUSIC.utils.database import add_off, add_on
 from ARISHFA_MUSIC.utils.decorators.language import language
 
-
 @app.on_message(filters.command(["logger"]) & SUDOERS)
 @language
 async def logger(client, message, _):
