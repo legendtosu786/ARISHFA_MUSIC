@@ -11,15 +11,15 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "env": {
+        "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "29869035",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "e7543eeb90a3209df9ee6b26aa84f994",
         "required": true
       },
       "BOT_TOKEN": {
@@ -38,10 +38,9 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session .",
+        "description": "A Pyrogram v2 String Session from @BRANDEDSTRINGSESSION_BOT on Telegram.",
         "value": "",
         "required": true
-     "required": false
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
@@ -53,8 +52,8 @@
         "value": "",
         "required": false
       },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
         "value": "",
         "required": true
       }
