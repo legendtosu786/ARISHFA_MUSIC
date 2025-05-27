@@ -18,9 +18,9 @@ from ARISHFA_MUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Devine.utils.decorators.language import LanguageStart
-from Devine.utils.formatters import get_readable_time
-from Devine.utils.inline import help_pannel, private_panel, start_panel
+from ARISHFA_MUSIC.utils.decorators.language import LanguageStart
+from ARISHFA_MUSIC.utils.formatters import get_readable_time
+from ARISHFA_MUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS, OWNER_ID
 from strings import get_string
 
